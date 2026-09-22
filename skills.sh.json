@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "DOX",
+      "description": "Bootstraps the DOX AGENTS.md tree by Agent Zero (agent0ai/dox). Skill wrapper only - not our creation.",
+      "skills": ["dox-init"]
+    }
+  ]
+}
