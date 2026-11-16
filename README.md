@@ -12,10 +12,12 @@ npx skills add instax-dutta/dox-init
 
 Say `/dox`, "init dox", or "initialize DOX tree" and the agent will:
 
-1. Install the official DOX `AGENTS.md` contract at your project root
-2. Scan the project structure
-3. Build nested child `AGENTS.md` files where folders are real boundaries
-4. Fill the root Child DOX Index
+1. Inspect your existing `AGENTS.md` files - a tree that is already there, and rules you wrote, are preserved rather than overwritten
+2. Stage the official DOX contract from a pinned revision outside the repo and show you the plan before writing
+3. Scan the project structure and build nested child `AGENTS.md` files where folders are real boundaries
+4. Fill the root Child DOX Index, then report every edit and where its recovery copy is
+
+Existing instructions always win. The workflow reads before it writes, backs up any file it changes, asks before replacing a rule you wrote, and never installs a truncated contract.
 
 Future edits then walk the docs tree before touching anything - less guessing, less drift.
 
